@@ -58,6 +58,81 @@ router.patch('/admin/orders/:id/status', async (req, res) => {
   }
 })
 
+router.get('/admin/categories', async (req, res) => {
+  try {
+    const result = await pool.query('SELECT * FROM categories ORDER BY id ASC')
+    res.json(result.rows)
+  } catch (error) {
+    res.status(500).json({ message: 'Admin categories fetch failed', error: error.message })
+  }
+})
+
+router.post('/admin/categories', async (req, res) => {
+  try {
+    const { slug, name, description = '', image = '' } = req.body
+    const normalizedSlug = String(slug || '').trim().toLowerCase()
+
+    if (!normalizedSlug || !name) {
+      return res.status(400).json({ message: 'Category slug and name are required' })
+    }
+
+    const existing = await pool.query('SELECT id FROM categories WHERE slug = $1', [normalizedSlug])
+    if (existing.rowCount > 0) {
+      return res.status(409).json({ message: 'Category slug already exists' })
+    }
+
+    const result = await pool.query(
+      `INSERT INTO categories (slug, name, description, image)
+       VALUES ($1, $2, $3, $4)
+       RETURNING *`,
+      [normalizedSlug, String(name).trim(), description, image]
+    )
+
+    res.status(201).json(result.rows[0])
+  } catch (error) {
+    res.status(500).json({ message: 'Category creation failed', error: error.message })
+  }
+})
+
+router.patch('/admin/categories/:id', async (req, res) => {
+  try {
+    const { slug, name, description, image } = req.body
+    const normalizedSlug = slug !== undefined ? String(slug).trim().toLowerCase() : undefined
+
+    const result = await pool.query(
+      `UPDATE categories
+       SET slug = COALESCE($1, slug),
+           name = COALESCE($2, name),
+           description = COALESCE($3, description),
+           image = COALESCE($4, image)
+       WHERE id = $5 RETURNING *`,
+      [normalizedSlug, name !== undefined ? String(name).trim() : undefined, description, image, req.params.id]
+    )
+
+    if (!result.rowCount) {
+      return res.status(404).json({ message: 'Category not found' })
+    }
+
+    res.json(result.rows[0])
+  } catch (error) {
+    res.status(500).json({ message: 'Category update failed', error: error.message })
+  }
+})
+
+router.delete('/admin/categories/:id', async (req, res) => {
+  try {
+    const result = await pool.query('DELETE FROM categories WHERE id = $1 RETURNING *', [req.params.id])
+
+    if (!result.rowCount) {
+      return res.status(404).json({ message: 'Category not found' })
+    }
+
+    res.json({ message: 'Category deleted successfully', id: Number(req.params.id) })
+  } catch (error) {
+    res.status(500).json({ message: 'Category delete failed', error: error.message })
+  }
+})
+
 router.get('/admin/products', async (req, res) => {
   try {
     const result = await pool.query('SELECT * FROM products ORDER BY id ASC')
