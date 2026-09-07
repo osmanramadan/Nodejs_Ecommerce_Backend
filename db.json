@@ -1,0 +1,389 @@
+{
+  "wishlist": [
+    
+  
+  ],
+  "orders": [
+    {
+      "id": 1788724974472,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Bamboo Toothbrush (4-pack)",
+          "quantity": 1,
+          "price": 11,
+          "image": "../../../src/assets/products/2.jfif"
+        },
+        {
+          "productId": 4,
+          "name": "Seed Starter Kit",
+          "quantity": 1,
+          "price": 21.99,
+          "image": "../../../src/assets/products/3.jpg"
+        },
+        {
+          "productId": 5,
+          "name": "Reusable Produce Bags (5-pack)",
+          "quantity": 1,
+          "price": 12,
+          "image": "../../../src/assets/products/2.jpg"
+        }
+      ],
+      "total": 44.989999999999995,
+      "createdAt": "2026-09-06T20:02:54.472Z",
+      "status": "pending"
+    },
+    {
+      "id": 1788725289929,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 4,
+          "name": "Seed Starter Kit",
+          "quantity": 1,
+          "price": 21.99,
+          "image": "../../../src/assets/products/3.jpg"
+        },
+        {
+          "productId": 5,
+          "name": "Reusable Produce Bags (5-pack)",
+          "quantity": 1,
+          "price": 12,
+          "image": "../../../src/assets/products/2.jpg"
+        },
+        {
+          "productId": 7,
+          "name": "Wooden Baby Teether Set",
+          "quantity": 1,
+          "price": 16.5,
+          "image": "../../../src/assets/products/2.jfif"
+        },
+        {
+          "productId": 8,
+          "name": "Wooden Baby Teether Set",
+          "quantity": 1,
+          "price": 16.5,
+          "image": "../../../src/assets/products/3.jfif"
+        },
+        {
+          "productId": 9,
+          "name": "Wooden Baby Teether Set",
+          "quantity": 1,
+          "price": 16.5,
+          "image": "../../../src/assets/products/1.jpg"
+        }
+      ],
+      "total": 83.49,
+      "createdAt": "2026-09-06T20:08:09.929Z",
+      "status": "pending"
+    },
+    {
+      "id": 1788727447168,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 5,
+          "name": "Reusable Produce Bags (5-pack)",
+          "quantity": 1,
+          "price": 12,
+          "image": "../../../src/assets/products/2.jpg"
+        }
+      ],
+      "total": 12,
+      "createdAt": "2026-09-06T20:44:07.168Z",
+      "status": "pending"
+    },
+    {
+      "id": 1788727541063,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 2,
+          "name": "Bamboo Toothbrush (4-pack)",
+          "quantity": 1,
+          "price": 11,
+          "image": "../../../src/assets/products/2.jfif"
+        },
+        {
+          "productId": 4,
+          "name": "Seed Starter Kit",
+          "quantity": 4,
+          "price": 21.99,
+          "image": "../../../src/assets/products/3.jpg"
+        },
+        {
+          "productId": 5,
+          "name": "Reusable Produce Bags (5-pack)",
+          "quantity": 4,
+          "price": 12,
+          "image": "../../../src/assets/products/2.jpg"
+        }
+      ],
+      "total": 146.95999999999998,
+      "createdAt": "2026-09-06T20:45:41.063Z",
+      "status": "pending"
+    },
+    {
+      "id": 1788727898976,
+      "userId": 12,
+      "items": [
+        {
+          "productId": 4,
+          "name": "Seed Starter Kit",
+          "quantity": 4,
+          "price": 21.99,
+          "image": "../../../src/assets/products/3.jpg"
+        }
+      ],
+      "total": 87.96,
+      "createdAt": "2026-09-06T20:51:38.976Z",
+      "status": "pending"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "email": "osmanramadan8@gmail.com",
+      "password": "dd",
+      "firstName": "osman",
+      "lastName": "ramadan"
+    },
+    {
+      "email": "o@o.com",
+      "password": "$2a$10$Eh63Cf5SE0hc687W6lEHJuCf1dWRAlk1ew04n1VsZKd/iEEwqgqRa",
+      "firstName": "Olivier",
+      "lastName": "Monge",
+      "id": 2
+    },
+    {
+      "email": "m@m.com",
+      "password": "$2a$10$0BxI47uObPEqSP4PTLTw9.QCzVHb/GdgC0LNuO307bUH4xGjb9wUS",
+      "firstName": "Olivier",
+      "lastName": "Monge",
+      "id": 3
+    },
+    {
+      "email": "osmanramadan8ff40@gmail.com",
+      "password": "$2a$10$7zH7HSqrtCCD1rX48elXNO27IjgFJxkAa0pO9U/Ty/FEUpZkwdn5O",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "confirmPassword": "12345678@",
+      "id": 4
+    },
+    {
+      "email": "osmanramadan840f@gmail.com",
+      "password": "$2a$10$1nC7Ht1qXmyB4arAd8.nleBPTk.0g3EnPn3Fy44o3mXfGroxdMgti",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 5
+    },
+    {
+      "email": "osmanramadanf840@gmail.com",
+      "password": "$2a$10$n1iXEBXf987N7/vBVwK14eJTwUf5fHaE9uMEJxdZsNBnnqbCB9mBS",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 6
+    },
+    {
+      "email": "osmanramadan840ff@gmail.com",
+      "password": "$2a$10$UCd3y1cgfV7tvnKZ.iC7OewUNDHnJ094D3nwVnL0wJL7AKI8P/IGW",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 7
+    },
+    {
+      "email": "osmanramadan8402@gmail.com",
+      "password": "$2a$10$hvBNOvVx/5WcoCnCqauN6OsBwcWso3/IEZMYs/7uM4q4nD0mkfVC2",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 8
+    },
+    {
+      "email": "osmanramadan842@gmail.com",
+      "password": "$2a$10$ReZbL5xGJIro0r/23DcqQOBHda4YLiIpo60UVMHrok71gB2qADKHy",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 9
+    },
+    {
+      "email": "osmanramadan84022@gmail.com",
+      "password": "$2a$10$zsCXhXPByNAeIQjRar3vj.XJYHliyqPtWa0HqG0lRejqJ.JDCAH/a",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 10
+    },
+    {
+      "email": "osmanramadan@gmail.com",
+      "password": "$2a$10$5YI.5v/VhZp9VAaS.2VqOuK5Z02eaCi5WumjjpKhW37wqW/TXvs3u",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 11
+    },
+    {
+      "email": "osmanramadan840@gmail.com",
+      "password": "$2a$10$QiwJ6yOVKKPc2SA.93PH4.0J.4HLvPam968iG/8mQ6S5yPPYoy6Hu",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 12
+    },
+    {
+      "email": "osmanramadan84ff0@gmail.com",
+      "password": "$2a$10$ofyyo7j6NEvyYCtOYX4km.xaq9hBweXZGUw0fuSCLLGkqvuzCOuwK",
+      "firstName": "osman",
+      "lastName": "ramadan",
+      "id": 13
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "slug": "tech",
+      "name": "tech",
+      "description": "Sustainable essentials for everyday living",
+      "image": "../../../src/assets/products/tech.jpg"
+    },
+    {
+      "id": 2,
+      "slug": "kitchen",
+      "name": "Kitchen",
+      "description": "Reusable and compostable kitchenware",
+      "image": "../../../src/assets/products/kitchen.jfif"
+    },
+    {
+      "id": 3,
+      "slug": "personalcare",
+      "name": "Personal Care",
+      "description": "Plastic-free hygiene and beauty",
+      "image": "../../../src/assets/products/care.jfif"
+    },
+    {
+      "id": 4,
+      "slug": "garden",
+      "name": "Garden",
+      "description": "Tools and seeds for growing your own",
+      "image": "../../../src/assets/products/garden.jpg"
+    },
+    {
+      "id": 5,
+      "slug": "baby",
+      "name": "Baby & Kids",
+      "description": "Non-toxic essentials for little ones",
+      "image": "../../../src/assets/products/baby.jfif"
+    },
+    {
+      "id": 6,
+      "slug": "pets",
+      "name": "Pets",
+      "description": "Eco-friendly pet care",
+      "image": "../../../src/assets/products/pet.jpg"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "name": "Bamboo Cutlery Set",
+      "category": "baby",
+      "price": 14.99,
+      "rating": 4.5,
+      "reviewCount": 128,
+      "image": "../../../src/assets/products/1.jfif",
+      "badge": "bestseller",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 2,
+      "name": "Bamboo Toothbrush (4-pack)",
+      "category": "personalcare",
+      "price": 11,
+      "rating": 4.5,
+      "reviewCount": 89,
+      "image": "../../../src/assets/products/2.jfif",
+      "badge": "new",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 3,
+      "name": "Compost Bin, Countertop",
+      "category": "baby",
+      "price": 27,
+      "rating": 4,
+      "reviewCount": 47,
+      "image": "../../../src/assets/products/3.jfif",
+      "inStock": false,
+      "numInStock": 0
+    },
+    {
+      "id": 4,
+      "name": "Seed Starter Kit",
+      "category": "garden",
+      "price": 21.99,
+      "rating": 4.5,
+      "reviewCount": 36,
+      "image": "../../../src/assets/products/3.jpg",
+      "badge": "new",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 5,
+      "name": "Reusable Produce Bags (5-pack)",
+      "category": "kitchen",
+      "price": 12,
+      "rating": 4,
+      "reviewCount": 73,
+      "image": "../../../src/assets/products/2.jpg",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 6,
+      "name": "Reusable Produce Bags (5-pack)",
+      "category": "kitchen",
+      "price": 12,
+      "rating": 4,
+      "reviewCount": 73,
+      "image": "../../../src/assets/products/1.jpg",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 7,
+      "name": "Wooden Baby Teether Set",
+      "category": "tech",
+      "price": 16.5,
+      "rating": 5,
+      "reviewCount": 22,
+      "image": "../../../src/assets/products/2.jfif",
+      "badge": "new",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 8,
+      "name": "Wooden Baby Teether Set",
+      "category": "home",
+      "price": 16.5,
+      "rating": 5,
+      "reviewCount": 22,
+      "image": "../../../src/assets/products/3.jfif",
+      "badge": "new",
+      "inStock": true,
+      "numInStock": 4
+    },
+    {
+      "id": 9,
+      "name": "Wooden Baby Teether Set",
+      "category": "baby",
+      "price": 16.5,
+      "rating": 5,
+      "reviewCount": 22,
+      "image": "../../../src/assets/products/1.jpg",
+      "badge": "new",
+      "inStock": true,
+      "numInStock": 4
+    }
+  ]
+}
